@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e8f5e9;
+    color: #333;
+}
+header, footer {
+    text-align: center;
+    background: #388e3c;
+    color: #fff;
+    padding: 10px 0;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.signup-form input, .signup-form textarea, .signup-form button {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.signup-form textarea {
+    resize: none;
+}
+.signup-form button {
+    background: #388e3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.signup-form button:hover {
+    background: #2e7d32;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.info-section article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-section article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info-section article p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.info-section article a {
+    color: #388e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-section article a:hover {
+    text-decoration: underline;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
